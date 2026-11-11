@@ -1,26 +1,21 @@
 //1
-SELECT * 
-FROM Produto 
+SELECT * FROM Produto 
 WHERE data_cadastro BETWEEN '2024-03-01' AND '2024-03-31';
 
 //2
-SELECT nome_produto, marca, estoque, data_cadastro 
-FROM Produto 
+SELECT nome_produto, marca, estoque, data_cadastro FROM Produto 
 WHERE data_cadastro BETWEEN '2024-01-01' AND '2024-03-31';
 
 //3
-SELECT * 
-FROM Cliente 
+SELECT * FROM Cliente 
 WHERE data_cadastro BETWEEN '2023-01-01' AND '2023-01-31';
 
 //4
-SELECT nome_cliente, email, cidade, estado, data_cadastro 
-FROM Cliente 
+SELECT nome_cliente, email, cidade, estado, data_cadastro FROM Cliente 
 WHERE data_cadastro BETWEEN '2023-06-01' AND '2023-06-15';
 
 //5
-SELECT * 
-FROM Venda 
+SELECT * FROM Venda 
 WHERE data_venda BETWEEN '2025-05-01' AND '2025-05-31';
 
 //6
